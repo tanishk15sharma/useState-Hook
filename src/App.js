@@ -5,6 +5,7 @@ import HookCounterTwo from "./components/HookCounter2";
 import HookCounter3 from "./components/HookCounter3";
 import ArrayList from "./components/Hook-Array";
 import HookInput from "./components/Hook-usestate";
+import FormHandler from "./components/Form-useState";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <HookCounterTwo /> */}
       {/* <HookCounter3 /> */}
       {/* <ArrayList /> */}
-      <HookInput />
+      {/* <HookInput /> */}
+      <FormHandler />
     </div>
   );
 }

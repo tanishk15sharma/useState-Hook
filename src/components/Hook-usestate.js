@@ -13,5 +13,4 @@ function HookInput() {
     </div>
   );
 }
-
 export default HookInput;
