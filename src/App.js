@@ -7,17 +7,19 @@ import ArrayList from "./components/Hook-Array";
 import HookInput from "./components/Hook-usestate";
 import FormHandler from "./components/Form-useState";
 import Addfunction from "./components/Add-useState";
+import MaxWords from "./components/Condition-useState";
 
 function App() {
   return (
     <div className="App">
+      <MaxWords />
       {/* <HookCounter /> */}
       {/* <HookCounterTwo /> */}
       {/* <HookCounter3 /> */}
       {/* <ArrayList /> */}
       {/* <HookInput /> */}
       {/* <FormHandler /> */}
-      <Addfunction />
+      {/* <Addfunction /> */}
     </div>
   );
 }
