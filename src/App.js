@@ -8,11 +8,13 @@ import HookInput from "./components/Hook-usestate";
 import FormHandler from "./components/Form-useState";
 import Addfunction from "./components/Add-useState";
 import MaxWords from "./components/Condition-useState";
+import PasswordHandler from "./components/PasswordCheck";
 
 function App() {
   return (
     <div className="App">
-      <MaxWords />
+      <PasswordHandler />
+      {/* <MaxWords /> */}
       {/* <HookCounter /> */}
       {/* <HookCounterTwo /> */}
       {/* <HookCounter3 /> */}
